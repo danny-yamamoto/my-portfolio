@@ -1,5 +1,7 @@
 <script>
     let myname = 'Daisuke Yamamoto';
+    let twitterProfile = 'https://twitter.com/dai_s_a_n';
+    let githubProfile = 'https://github.com/danny-yamamoto';
 </script>
 
 <head>
@@ -52,9 +54,9 @@
         <p>&copy; 2023 {myname}. All rights reserved.</p>
         <div class="social-links">
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="{githubProfile}" target="_blank"><i class="fab fa-github"></i></a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="{twitterProfile}" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
     </footer>
 
