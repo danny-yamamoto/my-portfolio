@@ -1,5 +1,6 @@
 <script>
     let myname = 'Daisuke Yamamoto';
+    let nickname = 'danny';
     let twitterProfile = 'https://twitter.com/dai_s_a_n';
     let githubProfile = 'https://github.com/danny-yamamoto';
     export let data;
@@ -9,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Portfolio</title>
+    <title>{nickname}'s Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
