@@ -95,6 +95,7 @@
 
     h1, h2 {
         margin: 0 0 20px;
+        border-bottom: 2px solid #333;
     }
 
     ul {
