@@ -34,7 +34,7 @@
 
     <!-- Articles Section -->
     <section id="articles">
-        <h2>Top 10 Articles</h2>
+        <h2>Top 20 Articles</h2>
         <ul>
             <!-- Continue listing other articles -->
             {#each articleItems as item }
@@ -104,7 +104,7 @@
     }
 
     ul li {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     a {
